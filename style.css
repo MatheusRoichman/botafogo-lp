@@ -16,6 +16,34 @@ body {
   color: #fff;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar__logo {
+  max-height: 100%;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+.navbar__links__link a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .header {
   height: 100vh;
   width: 100%;
